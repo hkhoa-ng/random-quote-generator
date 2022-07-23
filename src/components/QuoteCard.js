@@ -58,12 +58,12 @@ export default function QuoteCard() {
   } else {
     twitterLink =
       "https://twitter.com/intent/tweet?hashtags=quotes&text=" +
-      encodeURIComponent("https://hkhoa-ng.github.io/random-quote-generator");
+      encodeURIComponent("https://github.com/hkhoa-ng/random-quote-generator");
   }
 
   const faceBookLink =
     "https://www.facebook.com/sharer/sharer.php?u=" +
-    encodeURIComponent("https://hkhoa-ng.github.io/random-quote-generator");
+    encodeURIComponent("https://github.com/hkhoa-ng/random-quote-generator");
 
   return (
     <Container maxW="100%" h="100vh" bg={color} m="auto" centerContent>
